@@ -58,3 +58,8 @@ print("The particle will now decay in ", newdecaytime, "MicroSeconds")
 dist = 659/2.2 #In Metres
 part_distance = dist * newdecaytime
 print("That means that due to it's velocity it will now travel", part_distance, "Metres")
+user_input2=input("would you like to close this app? ")
+if user_input2 == "yes":
+    sys.exit()
+else:
+    sys.exit()
